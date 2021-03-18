@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Branş Sorgulama-For Örnek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <form action="">
+
+        <select id="liverpool">
+            <option value="forvet">Salah</option>
+            <option value="forvet">Mane</option>
+            <option value="forvet">Firmino</option>
+            <option value="ortasaha">Keita</option>
+            <option value="ortasaha">Henderson</option>
+            <option value="ortasaha">Milner</option>
+            <option value="defans">Arnold</option>
+            <option value="defans">Matip</option>
+            <option value="defans">VanDijk</option>
+            <option value="defans">Robertson</option>
+            <option value="kaleci">Allison</option>
+        </select>
+        <br>
+        <input type="radio" id="forvet" name="kadro" value="forvet">
+        <label for="forvet">Forvet Oyuncuları</label><br>
+        <input type="radio" id="ortasaha" name="kadro" value="ortasaha">
+        <label for="ortasaha">Ortasaha Oyuncunları</label><br>
+        <input type="radio" id="defans" name="kadro" value="defans">
+        <label for="defans">Defans Oyuncuları</label><br>
+        <input type="radio" id="kaleci" name="kadro" value="kaleci">
+        <label for="kaleci">Kaleciler</label><br>
+        <button id="btnSayiBul" onclick="mevkiSay();">Sayı Bul</button>
+    </form>
+</div>
+</body>
+<script src="kodlar.js"></script>
+</html>

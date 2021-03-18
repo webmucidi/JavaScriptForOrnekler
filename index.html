@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Branş Sorgulama-For Örnek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <form action="">
+        <input type="text" name="" id="txtOgretmen" placeholder="Öğretmen adınız yazınız..."><br>
+        <input type="text" name="" id="txtBrans" placeholder="Branşı yazınız..."><br>
+        <br>
+        <input type="button" value="Ekle" id="btnEkle" onclick="ogretmenEkle();">
+        <br>
+        <select name="" id="ogretmenListe" size="5">
+
+        </select>
+        <br>
+        <input type="radio" id="bilisim" name="brans" value="Bilişim" onselect="sayiBul();">
+        <label for="male">Bilişim</label><br>
+        <input type="radio" id="muhasebe" name="brans" value="Muhasebe" onselect="sayiBul();">
+        <label for="female">Muhasebe</label><br>
+        <input type="radio" id="buro" name="brans" value="Büro" onselect="sayiBul();">
+        <label for="female">Büro</label><br>
+
+        <button id="btnSayiBul" onclick="sayiBul();">Sayı Bul</button>
+        </form>
+    </div>
+</body>
+<script src="code.js"></script>
+</html>
